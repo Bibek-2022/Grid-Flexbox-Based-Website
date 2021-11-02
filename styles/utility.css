@@ -36,6 +36,7 @@
 }
 .btn {
   border-radius: 10px;
+  margin: 10px;
   width: 50px;
   height: 30px;
   border: none;
@@ -53,7 +54,13 @@
   float: left;
   width: 150px;
 }
-
+.btn-third {
+  border: 1px solid white;
+  border-radius: 0;
+  margin-top: 10px;
+  padding: 5px;
+  width: 150px;
+}
 .btn-dark {
   /* border: 1px solid white; */
   background-color: darkblue;

@@ -233,3 +233,20 @@ footer {
 .footWrap .social a {
   margin: 0 10px;
 }
+
+/* Media queries */
+
+@media (max-width: 768px) {
+  .hero,
+  .mid-info .figInfo,
+  .extree {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+  }
+  .cli-section {
+    grid-template-areas:
+      "h"
+      "i"
+      "ib";
+  }
+}
